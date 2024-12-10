@@ -1,6 +1,8 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'; // Make sure to include this for Bootstrap JS to work
+import './App.css'; // Make sure this line is included at the top
+
 
 function App() {
   return (
@@ -22,15 +24,15 @@ function App() {
       </button>
       <div className="collapse navbar-collapse" id="navbarNav">
   
-      <ul className="navbar-nav ms-auto" style={{ justifyContent: 'center', width: '100%' }}>
+      <ul className="navbar-nav ms-auto" style={{ justifyContent: 'right', width: '100%' }}>
   <li className="nav-item">
-    <h2 style={{ marginLeft: '450px' }}><a className="nav-link" href="#about">About Us</a></h2>
+    <h2><a className="nav-link" href="#about">About Us</a></h2>
   </li>
   <li className="nav-item">
-    <h2 style={{ marginLeft: '100px' }}><a className="nav-link" href="#services">Services</a></h2>
+    <h2><a className="nav-link" href="#services">Services</a></h2>
   </li> 
   <li className="nav-item">
-    <h2 style={{ marginLeft: '50px' }}><a className="nav-link" href="#contact">Contact</a></h2>
+    <h2 ><a className="nav-link" href="#contact">Contact</a></h2>
   </li>
 </ul>
 
